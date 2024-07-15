@@ -1,4 +1,16 @@
 .contact {
     font-weight: 600;
-    margin-top: 14vh;
+    margin-top: 0vh;
+    /* border: solid 2px lightblue; */
+    height: 40vh;
+    width: 20vw;
+   color: red;
+}
+.contact-container {
+    margin-left: 7vw;
+    display: flex; 
+
+}
+.contact > img {
+    height: 30vh;
 }
