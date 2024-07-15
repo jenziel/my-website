@@ -36,3 +36,9 @@
   .Header-title:hover {
     color: blue; /* Color on hover */
   }
+
+  @media only screen and (max-width: 600px) {
+    .App-header {
+        flex-direction: column;
+    }
+  }
