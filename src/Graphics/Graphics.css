@@ -1,0 +1,19 @@
+.graphics-container {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: flex-start;
+    /* height: 100vh; Full viewport height for vertical centering */
+    /* overflow: hidden; Hide any overflowing content */
+}
+.graphics-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 200px); /* Repeat 5 columns of 200px width */
+    border: solid 2px blue;
+    overflow-x: auto; /* Enable horizontal scrolling */
+    white-space: nowrap; /* Ensure items do not wrap to the next line */
+}
+
+.graphics-grid img {
+    width: 200px; /* Ensure images fit within the grid columns */
+    height: auto; /* Maintain aspect ratio */
+}

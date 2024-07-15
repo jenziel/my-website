@@ -1,0 +1,63 @@
+.project-row{
+    display:flex;
+    justify-content:center;
+    margin-bottom: 5vh;
+}
+.project-details{
+    text-align:left;
+    text-decoration-style: none;
+    border: solid 2px black;
+    width: 25vw;
+    height: 55.4vh;
+    font-size: 2.5vh;
+    padding: 1.1vw;
+    padding-left: 3vw;
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.project-title{
+    display:flex;
+    align-items: baseline;
+}
+.project-details > p {
+    margin-top: 0;
+}
+.project-arrow{
+    color: gray;
+    font-size: 3.5vh;
+    margin-left: 1vw;
+}
+.built-using {
+    font-weight:600;
+}
+.project-technologies {
+    font-weight: 500;
+}
+
+.project-images > img{
+    height: 60vh;
+    max-width: 59vw;
+}
+.project-btn {
+    width: 6vw;
+    background-color: lightgoldenrodyellow;
+    border-radius: 10px;
+    margin-top: 2vh;
+    font-size: 2vh;
+    cursor:pointer;
+    margin-top:none;
+    margin-right: 2vw;
+}
+
+.project-btn:hover,
+.repo-btn:hover {
+    background-color: gold;
+}
+.repo-btn {
+
+    width: 4vw;
+}
+.project-page{
+    margin-top: 7vh;
+}
